@@ -17,4 +17,4 @@ app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
 });
 
 app.constant("API_URL","https://api.github.com/")
-    .constant("API_TOKEN","03755843f2d5667166ec0c5e6e7d7bfa999f9b9d");
+    .constant("API_TOKEN","");
