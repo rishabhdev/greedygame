@@ -1,10 +1,8 @@
 /**
  * Created by rishabhdev on 15/09/17.
  */
-var app = angular.module("gitapp",['ui.bootstrap', 'ui.router','angularMoment']);
+var app = angular.module("gitapp",['ui.bootstrap', 'ui.router','angularMoment','daterangepicker','angularMoment','angular-loading-bar']);
 app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
-
-    $httpProvider.interceptors.push('addToken');
 
     $stateProvider.state('dashboard', {
         url: '/dashboard',
@@ -16,5 +14,4 @@ app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
 
 });
 
-app.constant("API_URL","https://api.github.com/")
-    .constant("API_TOKEN","");
+app.constant("API_URL","http://104.197.128.152/data/");

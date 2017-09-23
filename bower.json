@@ -8,6 +8,11 @@
     "angular-bootstrap": "^2.5.0",
     "angular-ui-router": "~0.2",
     "angular-moment": "^1.0.1",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "angular-daterangepicker": "^0.2.2",
+    "d3": "v3.4.13",
+    "font-awesome": "^4.7.0",
+    "angular-http-loader": "^0.1.8",
+    "angular-loading-bar": "^0.9.0"
   }
 }
